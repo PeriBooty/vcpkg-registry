@@ -1,0 +1,31 @@
+{
+    "name": "libdnxpp",
+    "version": "1.0.1",
+    "description": "Reimplementation of the Diannex Interpreter for Modern C++ (C++20/23)",
+    "dependencies": [
+        {
+            "name": "zlib",
+            "version>=": "1.2.13"
+        }
+    ],
+    "features": {
+        "sample": {
+          "description": "Sample Diannex-enabled Game",
+          "dependencies": [
+            {
+              "name": "raylib",
+              "version>=": "4.5.0#1"
+            }
+          ]
+        },
+        "fmtlib": {
+          "description": "Build using fmtlib/fmt to provide <format>",
+          "dependencies": [
+            {
+              "name": "fmt",
+              "version>=": "10.0.0"
+            }
+          ]
+        }
+    }
+}
