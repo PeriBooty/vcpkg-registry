@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO peribooty/libdnxpp
-    REF v1.0.1
-    SHA512 45390f3b755d54b693557e1a0196c5ba385b48200ecf471fa34bf77c984ea96694eb3e1fef518eb9dbae7aaeda8c0b67b8ac8c96f2b827ac94acbf6b26745d11
+    REF v1.1.0
+    SHA512 d88f2a7e925c44e31291b796b2afac89be094a53ea33d670e88ccb5fb5a9c5e86bd3c2bbc52d60ccbd87431933add00a8216465009a753ab892651c59ce91ebb
     HEAD_REF main
 )
 

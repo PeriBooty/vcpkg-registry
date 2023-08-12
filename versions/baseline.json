@@ -1,5 +1,5 @@
 {
   "default": {
-    "libdnxpp": { "baseline": "1.0.1", "port-version": 0 }
+    "libdnxpp": { "baseline": "1.1.0", "port-version": 0 }
   }
 }
